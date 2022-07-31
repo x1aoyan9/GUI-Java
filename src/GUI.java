@@ -1,3 +1,8 @@
+// https://introcs.cs.princeton.edu/java/15inout/GUI.java.html (project insp)
+// https://youtu.be/5o3fMLPY7qY (this project's tutorial - Alex Lee)
+
+// https://www.javatpoint.com/java-swing (Java Swing documentation)
+
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -9,10 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-// https://introcs.cs.princeton.edu/java/15inout/GUI.java.html
-// https://youtu.be/5o3fMLPY7qY
 
-// graphic user interface(GUI)
 public class GUI implements ActionListener {
 	private int count = 0;
 	private JLabel label;
